@@ -11,7 +11,17 @@
     <title>Background Generator</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <script type="module" src="/src/main.js"></script>
+    <div class="bg bg__header container">
+      <h1 class="bg__header">Background<br />Generator</h1>
+    </div>
+    <div class="bg bg__btns container">
+      <button class="bg__btn1" id="bg__btn1">Choose First Color</button>
+      <button class="bg__btn2" id="bg__btn2">Choose Second Color</button>
+      <form class="bg__form" id="bg__form">
+        <input class="bg__input1" type="color" id="bg__input1" />
+        <input class="bg__input2" type="color" id="bg__input2" />
+      </form>
+    </div>
   </body>
+  <script type="module" src="./src/main.js"></script>
 </html>

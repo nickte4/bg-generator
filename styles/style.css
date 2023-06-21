@@ -1,9 +1,5 @@
 :root {
-  --clr-background: radial-gradient(
-    circle,
-    rgba(91, 63, 255, 1) 0%,
-    rgba(140, 0, 250, 1) 100%
-  );
+  --clr-background: #92bdff;
 
   /* colors */
   --clr-light: #f8fafc;
