@@ -22,10 +22,20 @@
   align-items: center;
 }
 
-.bg__input1 {
-  display: none;
-}
-
+.bg__input1,
 .bg__input2 {
   display: none;
+  padding: 0;
+  border: none;
+  margin: 1rem;
+}
+
+.bg__input1::-webkit-color-swatch-wrapper,
+.bg__input2::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.bg__input1::-webkit-color-swatch,
+.bg__input2::-webkit-color-swatch {
+  border: none;
 }
