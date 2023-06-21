@@ -33,11 +33,14 @@
 
 html {
   scroll-behavior: smooth;
+  min-height: 100%;
 }
 
 body {
   font-family: "General Sans", sans-serif;
   background: var(--clr-background);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 img,

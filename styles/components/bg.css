@@ -1,8 +1,8 @@
 .bg__header {
   margin-top: 1rem;
   text-align: center;
-  font-size: var(--size-8xl);
-  font-weight: 400;
+  font-size: var(--size-7xl);
+  font-weight: 500;
   color: var(--clr-light);
   -webkit-text-stroke: 2px var(--clr-dark);
   text-shadow: -3px 5px 1px var(--clr-dark), -5px 5px 1px var(--clr-dark);
@@ -36,6 +36,9 @@
   padding: 0;
   border: none;
   margin: 1rem;
+  border-radius: 5px;
+  width: var(--size-9xl);
+  height: var(--size-4xl);
 }
 
 .bg__input1::-webkit-color-swatch-wrapper,
@@ -45,5 +48,28 @@
 
 .bg__input1::-webkit-color-swatch,
 .bg__input2::-webkit-color-swatch {
-  border: none;
+  border: 2px solid black;
+  border-radius: 5px;
 }
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {
+  .bg__header {
+    font-size: var(--size-8xl);
+  }
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
