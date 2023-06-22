@@ -6,15 +6,18 @@ A website that generates a background based on a palette chosen by the user.
 
 ## Built With
 
-(What languages the project used)
+- HTML/CSS
+- JavaScript
 
 ## Scope
 
-(What programming concepts or algorithms were used in this project)
+Manipulation of background color using an input type of "color".
+Local storage of color and memorization of previously chosen color.
+More CSS focused than JavaScript.
 
 ## Description
 
-(Any additional details about the project)
+This website allows the user to choose two colors that changes the background with a gradient.
 
 ## Contact
 
@@ -22,4 +25,4 @@ Nick Topacio - ntopacio25@gmail.com
 
 ## Acknowledgments
 
-(Any add-ons/plugins that were used, any sources that were used)
+Many w3schools websites. Done primarily through witchcraft and CSS trickery.

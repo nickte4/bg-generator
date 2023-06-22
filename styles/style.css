@@ -3,10 +3,12 @@
 
   /* colors */
   --clr-light: #f8fafc;
+  --clr-lighter: #dbdbdb;
   --clr-dark: #0f172a;
   --clr-gray: #94a3b8;
   --clr-orange: #fb923c;
   --clr-red: #f87171;
+  --clr-pink: #f1a2fa;
 
   /* sizes */
   --size-xxs: 0.5rem;

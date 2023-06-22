@@ -3,10 +3,21 @@ import "../styles/style.css";
 import "../styles/components/bg.css";
 import "../styles/utils.css";
 
+function setColorLabels() {
+  let colors = fetchColors();
+  let colorOneLabel = document.getElementById("bg__color1-header");
+  let colorTwoLabel = document.getElementById("bg__color2-header");
+  colorOneLabel.textContent = colors[0];
+  colorOneLabel.style.color = colors[0];
+  colorTwoLabel.textContent = colors[1];
+  colorTwoLabel.style.color = colors[1];
+}
+
 function setInitialColors() {
   let colors = fetchColors();
   document.body.style.background =
     "radial-gradient(" + colors[0] + ", " + colors[1] + ")";
+  setColorLabels();
 }
 
 function fetchColors() {
@@ -70,6 +81,7 @@ function listenForColorPickerOne() {
     document.body.style.background =
       "radial-gradient(" + chosenColor + ", " + colors[1] + ")";
     console.log(chosenColor);
+    setColorLabels();
   });
 }
 
@@ -82,6 +94,7 @@ function listenForColorPickerTwo() {
     document.body.style.background =
       "radial-gradient(" + colors[0] + ", " + chosenColor + ")";
     console.log(chosenColor);
+    setColorLabels();
   });
 }
 
@@ -112,6 +125,7 @@ function listenForRandomize() {
     setColorTwo(color2);
     document.body.style.background =
       "radial-gradient(" + color1 + ", " + color2 + ")";
+    setColorLabels();
   });
 }
 
